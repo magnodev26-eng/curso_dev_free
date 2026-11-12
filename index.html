@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Monte seu PC</title>
+
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <header>
+        <h1>Monte seu Computador</h1>
+        <nav>
+            <ul></ul>
+            <li><a href="#apresentacao">Apresentação</a></li>
+            <li><a href="#componentes">Componentes</a></li>
+            <li><a href="#personalizacao">Personalização</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="apresentacao">
+            <div class="caixa-destaque">
+                <p>Escolha os componentes do seu computador</p>
+            </div>
+        </section>
+
+        <section id="componentes">
+            <h2 class="titulo_secao">Componentes</h2>
+
+            <div class="conteiner_cards">
+
+                <div class="card">
+                    <img src="imagens/imagem_cpu.webp" alt="cpu">
+                    <h3> PROCESSADOR</h3>
+                    <p>executa as tarefas</p>
+                </div>
+
+                <div class="card">
+                    <img src="imagens/memoria_ram.jpg" alt="memoria RAM">
+                    <h3>Memroria RAM</h3>
+                    <p>Apoia os programas</p>
+                </div>
+
+                <div class="card">
+                    <img src="imagens/ssd.png" alt="SSD">
+                    <h3>SSD</h3>
+                    <p>Armazena os arquivos</p>
+                </div>
+            </div>
+
+        </section>
+
+        <section id="personalizacao">
+            <h2 class="titulo_secao">Personalização</h2>
+
+            <form action="#" class="conteiner-form">
+                <div class="coluna-input">
+                    <label for="nome"> Nome do computador</label>
+                    <input type="text" id="nome">
+
+                    <label for="process">Processsador</label>
+                    <select id="process">
+                        <Option>Selecione uma opção</Option>
+                    </select>
+                </div>
+                <div class="coluna-input">
+                    <fieldset>
+                        <legend>Finalidade principal</legend>
+                    </fieldset>
+                </div>
+
+                <div class="linha_total">
+                    <label for="uso">Como voce pretende usar o computador?</label>
+                    <textarea id="uso"></textarea>
+                </div>
+            </form>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>Projeto teste</p>
+    </footer>
+</body>
+
+</html>
