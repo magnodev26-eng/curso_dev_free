@@ -144,6 +144,17 @@ textarea {
     outline: none;
 }
 
+.linha_itens {
+    display: flex;
+    justify-content: space-between;
+    border: 0.5px solid #666666;
+    border-radius: 6px;
+}
+
+.item {
+    display: flex;
+}
+
 textarea {
     resize: vertical;
     min-height: 80px;
