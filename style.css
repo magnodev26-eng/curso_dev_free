@@ -45,7 +45,7 @@ header h1 {
 }
 
 header h1 {
-    font-size: 1.2rem;
+    font-size: 2rem;
     margin-bottom: 15px;
 }
 
@@ -66,6 +66,10 @@ nav ul {
     border-radius: 8px;
     font-weight: bold;
     color: #0f2c59;
+}
+
+.caixa-destaque p {
+    font-size: 25px;
 }
 
 .titulo_secao {
