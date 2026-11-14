@@ -11,15 +11,21 @@
 
 <body>
     <header>
-        <h1>Monte seu Computador</h1>
-        <nav>
-            <ul></ul>
-            <li><a href="#apresentacao">Apresentação</a></li>
-            <li><a href="#componentes">Componentes</a></li>
-            <li><a href="#personalizacao">Personalização</a></li>
-            </ul>
-        </nav>
+        <div class="h1">
+            <h1>Monte seu Computador</h1>
+        </div>
+        <div class="menu">
+            <nav>
+                <ul>
+                    <li><a href="#apresentacao">Apresentação</a></li>
+                    <li><a href="#componentes">Componentes</a></li>
+                    <li><a href="#personalizacao">Personalização</a></li>
+                </ul>
+            </nav>
+        </div>
+
     </header>
+
 
     <main>
         <section id="apresentacao">
@@ -67,11 +73,12 @@
                         <Option>Selecione uma opção</Option>
                     </select>
                 </div>
-                <div class="coluna-input">
+                <div class="coluna-input2">
                     <fieldset>
                         <legend>Finalidade principal</legend>
                     </fieldset>
                     <div class="linha_itens">
+
                         <div class="item">
                             <input type="radio" id="estudo" name="finalidade" value="estudo">
                             <label for="estudo">Estudo</label>
@@ -87,22 +94,23 @@
                             <label for="jogos">Jogos</label>
                         </div>
                     </div>
-                </div>
 
-                <div class="caixa_opcao">
-                    <legend>Acessorios opcionais</legend>
-                    <div class="linha_itens">
-                        <div class="item">
-                            <label for="webcam">Webcam</label>
-                            <input type="checkbox" id="webcam" name="acessorios" value="webcam">
-                        </div>
-                        <div class="item">
-                            <label for="headset">Headset</label>
-                            <input type="checkbox" id="headset" name="acessorios" value="headset">
-                        </div>
-                        <div class="item">
-                            <label for="mousepad">Mousepad</label>
-                            <input type="checkbox" id="mousepad" name="acessorios" value="mousepad">
+
+                    <div class="caixa_opcao">
+                        <legend>Acessorios opcionais</legend>
+                        <div class="linha_itens">
+                            <div class="item">
+                                <label for="webcam">Webcam</label>
+                                <input type="checkbox" id="webcam" name="acessorios" value="webcam">
+                            </div>
+                            <div class="item">
+                                <label for="headset">Headset</label>
+                                <input type="checkbox" id="headset" name="acessorios" value="headset">
+                            </div>
+                            <div class="item">
+                                <label for="mousepad">Mousepad</label>
+                                <input type="checkbox" id="mousepad" name="acessorios" value="mousepad">
+                            </div>
                         </div>
                     </div>
                 </div>
