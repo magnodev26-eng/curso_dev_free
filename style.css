@@ -152,6 +152,7 @@ legend {
 }
 
 .linha_total {
+    margin: 15px;
     box-sizing: border-box;
     border: 1px solid #256bd4;
     padding: 10px;
@@ -230,9 +231,7 @@ footer {
     }
 
     .linha-total {
-        grid-column: 1 / -1;
         width: 100%;
-
         border: 1px solid #256bd4;
     }
 
