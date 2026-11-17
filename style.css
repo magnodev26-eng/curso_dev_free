@@ -241,13 +241,9 @@ footer {
     border: 1px solid #256bd4;
 }
 
-/*#uso {
-    width: 100%;
-    display: flex;
-}*/
 
-@media (min-width: 768px) {
+@media (max-width: 440px) {
     .conteiner_cards {
-        justify-content: space-between;
+        align-items: center;
     }
 }
